@@ -13,3 +13,13 @@ wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/sh
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
 sudo apt update && sudo apt install terraform
 ```
+
+### Install jupyter notebook:
+```bash
+pip install jupyter notebook
+```
+Then run:
+```bash
+jupyter notebook
+```
+to find the port or URL to the jupyter notebook which can be accessed by copying the url which is given after running the command.
