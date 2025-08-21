@@ -23,4 +23,3 @@ Then run:
 jupyter notebook
 ```
 to find the port or URL to the jupyter notebook which can be accessed by copying the url which is given after running the command.
-
